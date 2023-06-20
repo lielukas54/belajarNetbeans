@@ -1,0 +1,45 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pkg4_explorevariable;
+
+/**
+ *
+ * @author lielu
+ */
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       //Integer (int)
+       int umur = 12;
+       System.out.println(umur);
+       System.out.println("Umur = " + umur + " Tahun");
+       
+       //Float (float)
+       float berat = (float) 82.5;
+       System.out.println("Berat = " + berat + " Kg");
+       
+       //Double Floating Point (double)
+       double panjang = 171.29999;
+       System.out.println("Panjang = " + panjang + " cm");
+       
+       //String (string)
+       String nama = "Lukas Lie";
+       System.out.println("Nama Lengkap = " + nama);
+       
+       //Karakter (char)
+       char kelamin = 'L';
+       System.out.println("Kelamin = " + kelamin);
+       
+       //Boolean (boolean)
+       boolean sehat = true;
+       System.out.println("Sehat = " + sehat);
+       
+    }
+    
+}
