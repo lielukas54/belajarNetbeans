@@ -1,0 +1,63 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pkg6_input;
+import java.util.Scanner;
+
+/**
+ *
+ * @author lielu
+ */
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        /*
+        Disini kita tidak perlu memasukan isi daripada tipe data
+        Seperti contoh dibawah, kita hanya memasukan tipe data lalu di customize sesuai dengan baris-baris yang diinginkan.
+        */
+       int angka;
+       
+       angka = 10;
+       System.out.println(angka);
+       
+       System.out.println("+");
+       
+       angka =12;
+       System.out.println(angka);
+       
+       int hasil;
+        System.out.print("Masukan Hasil = "); //Untuk memberikan tambahan teks jika project sedang di running.
+       Scanner input = new Scanner(System.in);
+       
+       hasil = input.nextInt();
+       
+       System.out.println("Hasil = " + hasil);
+       
+       double nominal;
+       
+       nominal = 15;
+        System.out.println(nominal);
+        System.out.println("+");
+        
+        nominal = 10;
+        System.out.println(nominal);
+        
+        double dihasilkan;
+        System.out.print("Masukan Hasil = ");
+        Scanner masukan = new Scanner(System.in);
+        dihasilkan = input.nextDouble();
+        System.out.println("Dihasilkan = " + dihasilkan);
+        
+        String nama;
+        System.out.print("Masukan Nama Lengkap = ");
+        Scanner name = new Scanner(System.in);
+        nama = name.nextLine();
+        System.out.println("Nama Lengkap = " + nama);
+    }
+    
+}
