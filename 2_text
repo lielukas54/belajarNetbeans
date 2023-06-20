@@ -1,0 +1,25 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pkg2_text;
+
+/**
+ *
+ * @author lielu
+ */
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // System.out.println(""); >> Untuk menampilkan teks
+        // System.out.println(6 + 4); >> Hanya bisa menampilkan rumus penjumlahan, pengurangan dsb
+        System.out.println("Hello World");
+        System.out.println("Saya sedang belajar Netbeans");
+        System.out.println(6 * 2);
+    }
+    
+}
