@@ -1,0 +1,37 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pkg3_tipedata;
+
+/**
+ *
+ * @author lielu
+ */
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        /*
+        Tipe - tipe data :
+        Angka
+            Integer        -> int    -> Tipe data untuk bilangan bulat
+            Floating Point -> float  -> Tipe data untuk bilangan berkoma
+            Double Float   -> double -> Tipe data untuk bilangan berkoma yang lebih banyak
+        Text
+            String         -> kata / kalimat (Saya sedang belajar)
+            Char           -> karakter / contoh : (A) (B) (-) (+)
+        Boolean
+            bool           -> true/false
+        Variable
+        //tipe data nama_variable = isi_variable;
+        //tipe data nama_variable;
+        */
+        int umur = 12;
+        System.out.println(umur);
+    }
+    
+}
