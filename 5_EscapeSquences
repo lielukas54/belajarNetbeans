@@ -1,0 +1,43 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pkg5_escapesquences;
+
+/**
+ *
+ * @author lielu
+ */
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        String nama = "Lukas Lie";
+        int umur = 24;
+        double berat = 85.5;
+        
+        /*
+        \t -> tab
+        */
+        
+        System.out.println("Nama Lengkap \t= " + nama);
+        System.out.println("Umur \t\t= " + umur + " Tahun");
+        System.out.println("Berat \t\t= " + berat + " Kg");
+        
+        /*
+        \n -> enter
+        */
+        System.out.println("\nNama Lengkap \t= " + nama + "\nUmur \t\t= " + umur + " Tahun" + "\nBerat \t\t= " + berat + " Kg");
+        
+        /*
+        \b -> backspace
+        */
+        System.out.println("\nNama Lengkap\b\b\b\b\b\b\b \t\t= " + nama); //contoh Nama Lengkap yang terhapus menjadi Nama saja karena \b
+        System.out.println("Umur \t\t= " + umur + " Tahun");
+        System.out.println("Berat \t\t= " + berat + " Kg");
+    }
+    
+}
