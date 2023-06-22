@@ -1,0 +1,31 @@
+package pkg10_luaskelilingpersegi;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // Menghitung Luas dan Keliling Persegi
+        /*
+        Luas Persegi = Sisi x Sisi
+        Keliling Persegi = Sisi + Sisi + Sisi + Sisi / 4 x Sisi 
+        */
+        int a, b, c;
+        a = 7;
+        b = a * a;
+        c = 4 * a;
+        System.out.println("Luas Persegi adalah " + b);
+        System.out.println("Keliling Persegi adalah " + c);
+        System.out.println("-----------------------------------");
+        int d, e, f;
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan Sisi Persegi : ");
+        d = input.nextInt();
+        e = d * d;
+        System.out.println("Luas Persegi \t\t= " + e);
+        e = 4 * d;
+        System.out.println("Keliling Persegi \t= " + e);
+        
+        
+    }
+    
+}
