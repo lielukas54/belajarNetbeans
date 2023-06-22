@@ -1,0 +1,64 @@
+package pkg9_operatoraritmatika;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // Aritmatika Penjumlahan
+        System.out.println(5 + 2);
+        int a = 10;
+        int b = 15;
+        int c = a+b;
+        System.out.println(a+b);
+        System.out.println(c);
+        System.out.println("----------------------------------");
+        // Input Penjumlahan
+        Scanner input = new Scanner(System.in);
+        int j, k, l;
+        System.out.print("Masukkan Angka : ");
+        j = input.nextInt();
+        System.out.print("Masukkan Angka : ");
+        k = input.nextInt();
+        l = j+k;
+        System.out.println("Penjumlahannya dari "+j+" + "+k+" = "+l);
+        // Aritmatika Pengurangan
+        System.out.println(10 - 5);
+        double d = 10;
+        double f = 14.8;
+        double e = d-f;
+        System.out.println(d-f);
+        System.out.println(e);
+        float g = (float)10.5348978;
+        float h = (float)5.3;
+        System.out.println(g-h);
+        // Input Pengurangan
+        Scanner hasil = new Scanner(System.in);
+        double z, x, y;
+        System.out.print("Masukkan Angka : ");
+        z = hasil.nextDouble();
+        System.out.print("Masukkan Angka : ");
+        x = hasil.nextDouble();
+        y = z-x;
+        System.out.println("Maka Hasilnya adalah " + y);
+        System.out.println("----------------------------------");
+        // Kombinasi dari keseluruhannya
+        int p, o, i;
+        Scanner result = new Scanner(System.in);
+        System.out.print("Masukan Angka : ");
+        p = result.nextInt();
+        System.out.print("Masukkan Angka : ");
+        o = result.nextInt();
+        i = p + o;
+        System.out.println(p + " + " + o + " = " + i);
+        i = p - o;
+        System.out.println(p + " - " + o + " = " + i);
+        i = p / o;
+        System.out.println(p + " : " + o + " = " + i);
+        i = p * o;
+        System.out.println(p + " x " + o + " = " + i);
+        // Sisa Bagi / Modulus
+        i = p % o;
+        System.out.println("Sisa Bagi : " + i);
+    }
+    
+}
