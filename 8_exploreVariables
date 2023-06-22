@@ -1,0 +1,27 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pkg8_explorevariable;
+
+/**
+ *
+ * @author lielu
+ */
+public class Main {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        String nama_depan, nama_belakang, nama_lengkap;
+        nama_depan = "Lukas";
+        nama_belakang = "Lie";
+        nama_lengkap = nama_depan +" "+nama_belakang;
+        System.out.println("Nama Depan \t: " + nama_depan);
+        System.out.println("Nama Belakang \t: "+ nama_belakang);
+        System.out.println("Nama Lengkap \t: "+ nama_lengkap);
+    }
+    
+}
